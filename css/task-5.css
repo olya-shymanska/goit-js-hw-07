@@ -1,0 +1,35 @@
+body {
+    transition: background-color 0.5s ease;
+}
+
+.widget {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+
+.change-color {
+    border: none;
+    border-radius: 8px;
+        padding: 8px 16px;
+        min-width: 148px;
+        height: 40px;
+        background: #4e75ff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #fff;
+}
